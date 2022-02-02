@@ -1,4 +1,4 @@
-function [freq, pvel, msg] = Read_ADAMA_raw(NET_STA1, NET_STA2, WTYPE, TARGET)
+function [freq, pvel, msg] = read_ADAMA_raw(NET_STA1, NET_STA2, WTYPE, TARGET)
 %% Author: Baowei Liu, baowei.liu@rochester.edu
 %% Goal: read out the phase velocity results from AkiEstimate between two stations pairs
 %%       from hdf5 created by python
@@ -8,7 +8,7 @@ function [freq, pvel, msg] = Read_ADAMA_raw(NET_STA1, NET_STA2, WTYPE, TARGET)
 %% Output: frequency: array with frequency values
 %%         pvel:     target data
 %%         msg:      message about the running 
-%% Example of Usage: [freq, pvel, msg] = Read_ADAMA_raw('3D.MM09', '1C.MM09', 'L', 'cf');
+%% Example of Usage: [freq, pvel, msg] = read_ADAMA_raw('3D.MM09', '1C.MM09', 'L', 'cf');
 %% Updated: 12.9.2021 
 
 %% Modified by Siyu: Jan. 1, 2022
