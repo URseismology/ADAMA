@@ -1,4 +1,4 @@
-function [freq, rncf, incf, msg] = Read_ADAMA_ncfs(NET_STA1, NET_STA2, CHAN)
+function [freq, rncf, incf, msg] = read_ADAMA_ncfs(NET_STA1, NET_STA2, CHAN)
 %% Author: Baowei Liu, baowei.liu@rochester.edu
 %% Goal: read out the noise correlation function (NCF) between two stations pairs
 %%       from hdf5 created by python
@@ -8,7 +8,7 @@ function [freq, rncf, incf, msg] = Read_ADAMA_ncfs(NET_STA1, NET_STA2, CHAN)
 %%         rncf:      real part of NCF
 %%         incf:      imaginary part of NCF
 %%         msg:       message about the running 
-%% Example of Usage: [freq, rncf, incf, msg] = Read_ADAMA_ncfs('ZV.SUMA', 'G.ATD', 'Z');
+%% Example of Usage: [freq, rncf, incf, msg] = read_ADAMA_ncfs('ZV.SUMA', 'G.ATD', 'Z');
 %% Updated: 12.9.2021 
 %% Modified by Siyu: Dec. 29, 2021
 %%   -- Deleted the LettersPattern section of the code
