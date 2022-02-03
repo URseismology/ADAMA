@@ -18,11 +18,6 @@ function [freq, pvel, msg] = read_ADAMA_raw(NET_STA1, NET_STA2, WTYPE, TARGET)
 
 clc
 
-%% Testing
-% NET_STA2 = 'AF.KTWE';
-% NET_STA1 = '2H.DALE';
-% WTYPE = 'L';
-% TARGET = 'co';
 
 %% 
 switch WTYPE
