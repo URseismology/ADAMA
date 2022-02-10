@@ -18,14 +18,19 @@ function [freq, pvel, msg] = read_ADAMA_raw(NET_STA1, NET_STA2, WTYPE, TARGET)
 
 clc
 
+%% Testing
+% NET_STA2 = 'AF.KTWE';
+% NET_STA1 = '2H.DALE';
+% WTYPE = 'L';
+% TARGET = 'co';
 
 %% 
 switch WTYPE
   case 'L' 
-    fn = ['/scratch/tolugboj_lab/Prj5_HarnomicRFTraces/ADAMA_maker/ADAMAraw_', TARGET, '_love.h5'];
+    fn = ['/Users/sxue3/Documents/Figures/data/ADAMAdata/ADAMAraw_', TARGET, '_love.h5'];
     CHAN = 'T';
   case 'R' 
-    fn = ['/scratch/tolugboj_lab/Prj5_HarnomicRFTraces/ADAMA_maker/ADAMAraw_', TARGET, '_ral.h5'];
+    fn = ['/Users/sxue3/Documents/Figures/data/ADAMAdata/ADAMAraw_', TARGET, '_ral.h5'];
     CHAN = 'Z';
   otherwise
     msg = 'wrong wave type given';

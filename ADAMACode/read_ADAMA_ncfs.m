@@ -19,8 +19,8 @@ clc
 
 
 %% 
-rfn = '/scratch/tolugboj_lab/DrO_Terra2BHive/1_ForSiyu/ADAMA_ncfs_ZZ_fr.h5';
-ifn = '/scratch/tolugboj_lab/DrO_Terra2BHive/1_ForSiyu/ADAMA_ncfs_ZZ_fi.h5';
+rfn = '/Users/sxue3/Documents/Figures/data/ADAMAdata/ADAMA_ncfs_ZZ_fr.h5';
+ifn = '/Users/sxue3/Documents/Figures/data/ADAMAdata/ADAMA_ncfs_ZZ_fi.h5';
 
 freq = zeros(7200,1);
 rncf = zeros(7200,1);
@@ -28,7 +28,7 @@ incf = zeros(7200,1);
 
 %% find the channel names from the filename
 % (note: all channel files have the '.ZZ-.ZZ' channel, so no need to change it)
-chn = strcat(CHAN,CHAN);
+chn = strcat(CHAN, CHAN);
 chnP = strcat('.ZZ-.ZZ');
 
 % direct to the correct h5 file with given channel
