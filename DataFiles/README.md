@@ -10,5 +10,5 @@ ADAMA_staconns.csv contains all possible station pair connections computed using
 
 prepross_connection_1.csv: all connections in ADAMA_staconns.csv that have at least one station in the pair having comp as [1,2,Z]
 
-#### 3. Access pe-processed data in hdf5 format:
+#### 4. Access NCf(ADAMAncfs) and pe-processed(ADAMA_raw) data in hdf5 format:
 https://repovibranium.earth.rochester.edu:5001/sharing/SgvBDpbli
