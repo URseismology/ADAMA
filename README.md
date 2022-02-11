@@ -1,4 +1,4 @@
-# Data, Code and Measurement files for ADAMA
+# Data, Code, and Measurement files for ADAMA
 
 A Short-Period Surface Wave Dispersion Dataset for Model Assessment of Africa’s Crust: ADAMA.D1
  Tolulope Olugboji, and Siyu Xue
