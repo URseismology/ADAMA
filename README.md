@@ -47,7 +47,7 @@ All scripts for making plots for manuscript, are provided as:
 ### 4.GVib to NCFs (Python, Bash, SLURM, MATLAB)
 Scripts to download raw data as SEED files from IRIS using the rover system, downsample, remove instrument response,  rotate, and postprocess the SEED to SAC files and automate using SLURM bash scripts on the High-performance computing (HPC) platform bluehive. Finally MATLAB scripts to compute NCFS using the Russell codes generalized for HPC on bluehive.
 ### 5.NCFs to Phase Velocity (SLURM Bash) 
-Scripts that use NCFs from 4 above, converted to ASCII files, and produce phase velocities - C_o. Again, SLURM bash scripts that run the whole process using the HPC system:
+Scripts that use NCFs from 4 above, converted to ASCII files, and produce phase velocities Co. Again, SLURM bash scripts that run the whole process using the HPC system:
 - run01code.sh & run01code.slurm: run Aki01 code in parallel. 
 - run02code.sh & run02code.slurm: run Aki02 code in parallel. 
 - run03code.sh & run03code.slurm: run Aki03 code in parallel.
