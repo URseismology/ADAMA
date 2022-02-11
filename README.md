@@ -11,7 +11,7 @@ Please cite as: Xue, S and Olugboji, T. (2021). URseismology/ADAMA: ADAMA.2 (v0.
 ## Directory Overview
 
 ### 1.Data Files (CSV and HDF5):
-Includes metadata and our measurements:
+Includes our metadata and measurements:
 - ADAMA_stalist:  Station metadata 
 - ADAMA_gvib: Displacement seismograms at 1 Hz 
 - ADAMA_staconns: List of station pairs that are connected - 150K 
@@ -19,7 +19,7 @@ Includes metadata and our measurements:
 - ADAMA_raw: Phase & group velocity extracted from NCFs (Raw) 
 - ADAMA_clean: Same as (5) but downsampled (11 periods) and cleaned 
 ### 2.Data Readers and Writers (MATLAB & Python): 
-Codes to build HDF5 files from all data and read from HDF5 files.
+Codes to build HDF5 files from all data and read from HDF5 files:
 - buildADAMAncf.m – compiles the dataset from ncf results
 - read_ADAMA_ncfs.m – read in the ncf of a station pair as HDF5 files
 - buildADAMAraw.py – compiles the dataset from raw AkiEstimate files
