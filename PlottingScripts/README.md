@@ -1,1 +1,1 @@
-All scripts for making plots for manuscript, are provided here.
+All scripts for making plots for manuscript are provided here.
