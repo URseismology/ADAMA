@@ -13,3 +13,6 @@ prepross_connection_1.csv: all connections in ADAMA_staconns.csv that have at le
 
 #### 4. Access NCf(ADAMAncfs) and pe-processed(ADAMA_raw) data in hdf5 format:
 https://repovibranium.earth.rochester.edu:5001/sharing/SgvBDpbli
+
+#### 5. Original SEED files downloaded using ROVER(private):
+Backup at RAID6/bluehive_bk_monthly/obspy_batch_bk_Oct062021/
