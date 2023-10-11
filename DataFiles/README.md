@@ -15,4 +15,4 @@ prepross_connection_1.csv: all connections in ADAMA_staconns.csv that have at le
 https://repovibranium.earth.rochester.edu:5001/sharing/SgvBDpbli
 
 #### 5. Original SEED files downloaded using ROVER [private]:
-Backup at RAID6/bluehive_bk_monthly/obspy_batch_bk_Oct062021/
+Backup at RAID6/bluehive_bk_monthly/obspy_batch_bk_Oct062021/. More information on how to use ROVER to download from IRIS, please refer to https://github.com/URseismology/LithoAFR-SWave/tree/main/parDatDwnld.
